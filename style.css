@@ -169,6 +169,6 @@ input[type="submit"]:hover {
         width: 100%;
     }
     .pp {
-        text-align: center;
+        text-align: right;
     }
 }

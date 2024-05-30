@@ -168,4 +168,7 @@ input[type="submit"]:hover {
     .device-card {
         width: 100%;
     }
+    .pp {
+        text-align: left;
+    }
 }

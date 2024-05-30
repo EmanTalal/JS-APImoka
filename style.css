@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #71d2d9;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+.registration,
+.login {
+    background-color: #fff;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.pro {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.pro a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pro a:hover {
+    text-decoration: underline;
+}
+
+.device h1 {
+    margin-bottom: 20px;
+}
+
+.device input {
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 30px;
+    border: 1px solid #6d00ad;
+    border-radius: 5px;
+}
+
+.devices {
+    display: flex;
+    justify-content: center;
+}
+
+.device-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.device-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.device-card h3 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.device h1 {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .registration,
+    .login {
+        width: 90%;
+        margin: 20px auto;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .navbar {
+        display: none;
+    }
+    .welcome {
+        padding: 10px;
+    }
+    .device input {
+        width: 100%;
+    }
+    .device-card {
+        width: 100%;
+    }
+}
